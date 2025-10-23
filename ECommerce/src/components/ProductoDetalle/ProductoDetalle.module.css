@@ -1,0 +1,30 @@
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #648f32;
+    text-align: center;
+}
+.titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #012861;
+}
+.precio{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff4b78;
+}
+.descripcion{
+    font-size: 1rem;
+    color: #012861;
+    text-align: center;
+    padding: 3vh 10vh;
+}
+.botonesCompra{
+    padding: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

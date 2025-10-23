@@ -1,0 +1,38 @@
+.card{
+    width: 40vh;
+    height: -webkit-fill-available;
+    margin: 10px;
+    padding: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9f9ff;
+    border-radius: 5vh;
+    img{
+        width: auto;
+        height: 13vh;
+    }
+    .cardBody{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        color: black;
+    }
+    .precio{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #c0187a;
+    }
+    .botonesCompra{
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+        gap: 10px;
+        padding-top: 2vh;
+    }
+}

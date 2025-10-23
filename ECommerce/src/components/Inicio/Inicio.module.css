@@ -1,0 +1,15 @@
+h1{
+    padding: 5vh;
+}
+.inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parrafo{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #012861;
+    padding: 5vh 10vh;
+}
